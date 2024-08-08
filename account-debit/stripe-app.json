@@ -1,0 +1,34 @@
+{
+  "id": "com.XXX.account-debit",
+  "version": "0.0.1",
+  "name": "Dashboard Account Debit",
+  "icon": "./brand_icon.png",
+  "permissions": [
+    {
+      "permission": "charge_write",
+      "purpose": "Allows reading report run result to create the payout"
+    },
+    {
+      "permission": "connected_account_read",
+      "purpose": "Allows reading report run result to create the payout"
+    },
+    {
+      "permission": "user_email_read",
+      "purpose": "Log the email of the user who created the account debit"
+    }
+  ],
+  "ui_extension": {
+    "views": [
+      {
+        "viewport": "stripe.dashboard.drawer.default",
+        "component": "App"
+      }
+    ],
+    "content_security_policy": {
+      "connect-src": null,
+      "image-src": null,
+      "purpose": ""
+    }
+  },
+  "distribution_type": "private"
+}
