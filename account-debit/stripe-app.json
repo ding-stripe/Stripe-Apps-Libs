@@ -6,11 +6,11 @@
   "permissions": [
     {
       "permission": "charge_write",
-      "purpose": "Allows reading report run result to create the payout"
+      "purpose": "Allows update the charge object to create account debit"
     },
     {
       "permission": "connected_account_read",
-      "purpose": "Allows reading report run result to create the payout"
+      "purpose": "Allows read the charge object to create account debit"
     },
     {
       "permission": "user_email_read",

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Test",
   "private": true,
-  "license": "~~proprietary~~",
+  "license": "MIT",
   "dependencies": {
     "@stripe/ui-extension-sdk": "^8.9.1",
     "stripe": "^16.6.0"
