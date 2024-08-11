@@ -1,0 +1,34 @@
+{
+  "id": "com.example.cancel-payment",
+  "version": "0.0.1",
+  "name": "Cancel Payment",
+  "icon": "",
+  "permissions": [
+    {
+      "permission": "charge_write",
+      "purpose": "Allows to update charge object to cancel the payment"
+    },
+    {
+      "permission": "charge_read",
+      "purpose": "Allows to read charge object to cancel the payment"
+    },
+    {
+      "permission": "user_email_read",
+      "purpose": "Log the email of the user who created the cancellation debit"
+    }
+  ],
+  "ui_extension": {
+    "views": [
+      {
+        "viewport": "stripe.dashboard.payment.detail",
+        "component": "App"
+      }
+    ],
+    "content_security_policy": {
+      "connect-src": null,
+      "image-src": null,
+      "purpose": ""
+    }
+  },
+  "distribution_type": "private"
+}
