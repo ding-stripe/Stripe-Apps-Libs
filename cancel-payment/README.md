@@ -9,7 +9,7 @@ This Stripe App enables you to cancel the non-card payment directly from the Das
 ## Installation
 1. Download this repository
 2. Run `stripe login` to authenticate your account
-3. Modify the `id` in `stripe-app.json`. Use your account ID to prevent duplication errors (e.g., com.acct_XXXX.account-debit)
+3. Modify the `id` in `stripe-app.json`. Use your account ID to prevent duplication errors (e.g., com.acct_XXXX.cancel-payment)
 4. Execute `stripe apps upload` to upload the app
 5. Release the uploaded version and install the app (refer to [Stripe Apps documentation](https://docs.stripe.com/stripe-apps/versions-and-releases))
 
