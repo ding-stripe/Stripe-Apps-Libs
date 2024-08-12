@@ -14,7 +14,7 @@ This Stripe App enables you to cancel the non-card payment directly from the Das
 5. Release the uploaded version and install the app (refer to [Stripe Apps documentation](https://docs.stripe.com/stripe-apps/versions-and-releases))
 
 ## Usage
-1. Navigate to the payment detal page you want to cancel
+1. Navigate to the payment details page you wish to cancel
 2. Check the confirmation checkbox
 3. Click "Cancel the PaymentIntent"
 
